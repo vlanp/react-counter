@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  padding: 0 4rem;
+  border-bottom: 2px solid lightgrey;
+}
+header > div {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+header > div img {
+  height: 8rem;
+}
+
+main {
+  padding-top: 10vh;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+main .counter > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+  height: 10rem;
+  gap: 5rem;
+}
+main .counter > div > p {
+  font-size: 8rem;
+  font-weight: bold;
+}
+main .counter > div > div > p {
+  position: absolute;
+  top: 0;
+  right: 10rem;
+  font-size: 8rem;
+  color: white;
+  background-color: #5c48d3;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .counter > button {
+  border-radius: 0.5rem;
+  border: none;
+  width: 10rem;
+  background-color: #5c48d3;
+  font-size: 2rem;
+  color: white;
+  padding: 2rem 0;
+}
+
+footer {
+  height: 10vh;
+}
+footer p {
+  text-align: center;
+  font-size: 2rem;
+}
+footer p span {
+  font-weight: bold;
+}/*# sourceMappingURL=App.css.map */
